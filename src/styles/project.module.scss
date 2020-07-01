@@ -1,0 +1,53 @@
+.main {
+  margin-bottom: 150px;
+}
+
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 60px;
+}
+
+.project {
+  font-family: "Inconsolata", monospace !important;
+  padding: 30px 40px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+  background-color: #172a45;
+  border-radius: 5px;
+}
+
+.description {
+  list-style-type: "✔ ";
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.folder {
+  width: 50px;
+}
+
+.link {
+  width: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.data {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1150px) {
+  .projects {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 680px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+}
