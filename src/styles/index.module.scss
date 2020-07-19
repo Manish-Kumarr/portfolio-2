@@ -21,11 +21,11 @@ $grey: #8892b0;
 }
 .content {
   padding-top: 110px;
+  z-index: 5;
 }
 
 .inner {
   position: relative;
-  z-index: -1;
 }
 
 h1 {

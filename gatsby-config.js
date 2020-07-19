@@ -17,7 +17,7 @@ module.exports = {
       {
         heading: "Covid 19",
         link: "https://github.com/Manish-Kumarr/covid-19",
-        external: "",
+        external: "https://covidddd19.herokuapp.com/",
         description: [
           "Designed and developed this covid app.",
           "Used own API",
@@ -70,7 +70,7 @@ module.exports = {
 
       {
         heading: "Secret Diary",
-        link: "",
+        link: "https://github.com/Manish-Kumarr",
         external: "https://allaboutnotes.com/script/",
         description: [
           "Designed and developed this for learning new thing in PHP.",

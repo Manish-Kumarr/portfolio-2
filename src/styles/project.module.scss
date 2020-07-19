@@ -1,5 +1,6 @@
 .main {
   margin-bottom: 150px;
+  transition: 0.4s;
 }
 
 .projects {
@@ -12,9 +13,13 @@
 .project {
   font-family: "Inconsolata", monospace !important;
   padding: 30px 40px;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
   background-color: #172a45;
   border-radius: 5px;
+  &:hover {
+    position: relative;
+    bottom: 5px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22) !important;
+  }
 }
 
 .description {
