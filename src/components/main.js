@@ -13,9 +13,10 @@ const Main = () => {
       }
     }
   `)
+
   return (
-    <div>
-      <div className={indexStyle.content}>
+    <div className={indexStyle.content}>
+      <div className={indexStyle.inner}>
         <p className={indexStyle.hi}> Hi, my name is</p>
         <h1 style={{ color: "white", opacity: 0.6 }}>
           {data.site.siteMetadata.title}.
@@ -33,7 +34,6 @@ const Main = () => {
             Get In Touch
           </a>{" "}
         </button>
-        <Social />
       </div>
     </div>
   )

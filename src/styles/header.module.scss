@@ -4,16 +4,21 @@
   box-sizing: border-box;
 }
 .main {
-  box-shadow: 0 2px 15px rgb(7, 7, 7);
+  background-color: #0a192f;
+  z-index: 10;
+  transition: 0.4s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 70px;
+  margin: 0 auto;
+  position: fixed;
+  width: 100%;
 }
 .inner {
-  position: relative;
   width: 90%;
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  height: 100%;
 }
 .logo {
   width: 40px;
@@ -36,11 +41,11 @@
 
 .fill {
   position: relative;
-  height: 40%;
-  top: 50%;
-  transform: translateY(-50%);
+  // height: 40%;
+  // top: 50%;
+  // transform: translateY(-50%);
   cursor: pointer;
-  z-index: 2;
+  // z-index: 200;
   display: none;
 }
 
@@ -85,9 +90,10 @@ a {
     transition: 1s;
     height: 100vh;
     width: 250px;
+    top: 0;
     right: -250px;
     background-color: #172a45;
-    z-index: 1;
+    // z-index: 199;
   }
   .main .inner > div:nth-child(2) .ul {
     display: flex;

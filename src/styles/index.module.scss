@@ -12,6 +12,7 @@ $grey: #8892b0;
 .main {
   color: $grey;
   position: relative;
+  z-index: 5;
   background-color: #0a192f;
 }
 .width {
@@ -19,9 +20,12 @@ $grey: #8892b0;
   margin: 0 auto;
 }
 .content {
-  //  height: 80vh;
-  margin-top: 110px;
-  padding-bottom: 100px;
+  padding-top: 110px;
+}
+
+.inner {
+  position: relative;
+  z-index: -1;
 }
 
 h1 {

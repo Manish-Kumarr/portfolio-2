@@ -7,6 +7,7 @@ import About from "../components/about"
 import Contact from "../components/contact"
 import Project from "../components/project"
 import "typeface-roboto-condensed"
+import Social from "../components/social"
 
 const IndexPage = () => {
   return (
@@ -17,6 +18,7 @@ const IndexPage = () => {
         <About />
         <Project />
         <Contact />
+        <Social />
       </div>
     </div>
   )
