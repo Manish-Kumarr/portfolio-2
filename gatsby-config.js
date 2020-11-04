@@ -5,6 +5,30 @@ module.exports = {
     author: `Manish Kumar`,
     work: [
       {
+        heading: "Todo App",
+        link: "https://github.com/Manish-Kumarr/Todo-App-React",
+        external: "",
+        description: [
+          "Designed and developed this Todo App.",
+          "Build with ReactJS.",
+          "Used local storage for keep the data in browser.",
+        ],
+        date: "October - 2020",
+      },
+      {
+        heading: "Burger App",
+        link: "https://github.com/Manish-Kumarr/burger-app",
+        external: "https://burger-app-b94aa.web.app/",
+        description: [
+          "Designed and developed this Burger order app.",
+          "Build with ReactJS, Redux, Router.",
+          "For storing data, I have used google firebase console.",
+          "After sign up you can order a burger.",
+          "This is my Udemy Project.",
+        ],
+        date: "October - 2020",
+      },
+      {
         heading: "Portfolio website - 2",
         link: "https://github.com/Manish-Kumarr/portfolio-2",
         external: "",
