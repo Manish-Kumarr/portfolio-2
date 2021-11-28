@@ -15,10 +15,7 @@ const Contact = () => {
         best to answer your email!
       </p>
       <button>
-        <a
-          href="mailto:contact@singh-manish.tech"
-          className={contactStyle.link}
-        >
+        <a href="mailto:imsinghmnish@gmail.com" className={contactStyle.link}>
           Say Hello
         </a>{" "}
       </button>

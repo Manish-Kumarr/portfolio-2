@@ -27,10 +27,7 @@ const Main = () => {
           building exceptional, high-quality websites and web applications.
         </p>
         <button>
-          <a
-            href="mailto:contact@singh-manish.tech"
-            className={indexStyle.link}
-          >
+          <a href="mailto:imsinghmnish@gmail.com" className={indexStyle.link}>
             Get In Touch
           </a>{" "}
         </button>

@@ -47,8 +47,8 @@ const Social = () => {
         </li>
       </div>
       <div>
-        <a href="mailto:contact@singh-manish.tech">
-          <h6>contact@singh-manish.tech</h6>
+        <a href="mailto:imsinghmnish@gmail.com">
+          <h6>imsinghmnish@gmail.com</h6>
         </a>
       </div>
       <div className={socialStyle.credit}>

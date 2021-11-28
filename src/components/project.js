@@ -35,10 +35,10 @@ const Project = () => {
                   <img src={folder} alt="" className={projectStyle.folder} />
                 </div>
                 <div>
-                  <a href={a.link}>
+                  <a href={a.link} target="_blank">
                     <img src={git} alt="" className={projectStyle.link} />
                   </a>
-                  <a href={a.external}>
+                  <a href={a.external} target="_blank">
                     <img src={link} alt="" className={projectStyle.link} />
                   </a>
                 </div>

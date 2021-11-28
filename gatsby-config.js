@@ -5,9 +5,43 @@ module.exports = {
     author: `Manish Kumar`,
     work: [
       {
+        heading: "Study Corner",
+        link: "https://github.com/Manish-Kumarr",
+        external: "#",
+        description: [
+          "Designed and developed this Notes and Question Paper App.",
+          "Build with Flutter.",
+          "Used own API.",
+        ],
+        date: "October - 2021",
+      },
+      {
+        heading: "Attendance Dock",
+        link: "https://github.com/Manish-Kumarr/attendance_dock.git",
+        external: "#",
+        description: [
+          "Designed and developed this Attendance Management App.",
+          "Build with Flutter.",
+          "Used firebase for real time data.",
+        ],
+        date: "May - 2021",
+      },
+      {
+        heading: "Wallfire",
+        link: "https://github.com/Manish-Kumarr",
+        external:
+          "https://play.google.com/store/apps/details?id=com.wallfire.app",
+        description: [
+          "Designed and developed this wallpaper App.",
+          "Build with Flutter.",
+          "Used Pixbay API for fetching images.",
+        ],
+        date: "April - 2021",
+      },
+      {
         heading: "Todo App",
         link: "https://github.com/Manish-Kumarr/Todo-App-React",
-        external: "",
+        external: "#",
         description: [
           "Designed and developed this Todo App.",
           "Build with ReactJS.",
@@ -31,7 +65,7 @@ module.exports = {
       {
         heading: "Portfolio website - 2",
         link: "https://github.com/Manish-Kumarr/portfolio-2",
-        external: "",
+        external: "https://portfolio-manish.netlify.app/",
         description: [
           "Designed and developed this Portfolio website.",
           "Build with ReactJS, NodeJS, Gatsby, graphql.",
@@ -63,7 +97,7 @@ module.exports = {
       {
         heading: "Note Taking App (Nodejs)",
         link: "https://github.com/Manish-Kumarr/Note-taking-app",
-        external: "",
+        external: "#",
         description: [
           "Designed and developed this note taking backend.",
           "Build with NodeJS",
@@ -95,7 +129,7 @@ module.exports = {
       {
         heading: "Secret Diary",
         link: "https://github.com/Manish-Kumarr",
-        external: "https://allaboutnotes.com/script/",
+        external: "#",
         description: [
           "Designed and developed this for learning new thing in PHP.",
           "You can share this diary with your friends on whatsapp.",

@@ -31,6 +31,8 @@ const About = () => {
             <li className={aboutStyle.aboutlist}>ReactJS</li>
             <li className={aboutStyle.aboutlist}>MYSql</li>
             <li className={aboutStyle.aboutlist}>NodeJS</li>
+            <li className={aboutStyle.aboutlist}>Dart</li>
+            <li className={aboutStyle.aboutlist}>C/C++</li>
           </ul>
           <ul>
             <li className={aboutStyle.aboutlist}>(S)CSS</li>
@@ -38,6 +40,8 @@ const About = () => {
             <li className={aboutStyle.aboutlist}>Gatsby</li>
             <li className={aboutStyle.aboutlist}>MongoDB</li>
             <li className={aboutStyle.aboutlist}>Express</li>
+            <li className={aboutStyle.aboutlist}>Flutter</li>
+            <li className={aboutStyle.aboutlist}>Java</li>
           </ul>
         </div>
       </div>
