@@ -11,12 +11,12 @@ const About = () => {
         </div>
 
         <p className="des">
-          Hello! I am Manish, an UG student based in New Delhi, India who enjoys
+          Hello! I am Manish, a PG student based in New Delhi, India who enjoys
           building things that live on the internet. I develop exceptional
           websites and web apps that provide intuitive, pixel-perfect user
           interfaces with efficient and modern backends.
           <br />
-          <br />I am persuing my major in Bachelor of computer application from{" "}
+          <br />I am persuing my major in Master of computer application from{" "}
           <span className={aboutStyle.university}>
             Amity Institute of Information Technology.
           </span>

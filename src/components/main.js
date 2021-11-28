@@ -1,5 +1,5 @@
 import React from "react"
-import Social from "./social"
+import Head from "../components/head"
 import indexStyle from "../styles/index.module.scss"
 import { graphql, useStaticQuery } from "gatsby"
 
@@ -8,7 +8,7 @@ const Main = () => {
     query {
       site {
         siteMetadata {
-          title
+          author
         }
       }
     }
@@ -16,10 +16,11 @@ const Main = () => {
 
   return (
     <div className={indexStyle.content}>
+      <Head />
       <div className={indexStyle.inner}>
         <p className={indexStyle.hi}> Hi, my name is</p>
         <h1 style={{ color: "white", opacity: 0.6 }}>
-          {data.site.siteMetadata.title}.
+          {data.site.siteMetadata.author}.
         </h1>
         <h1>I build things for the web.</h1>
         <p className={indexStyle.des}>

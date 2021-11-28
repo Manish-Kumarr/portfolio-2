@@ -52,7 +52,7 @@ const Social = () => {
         </a>
       </div>
       <div className={socialStyle.credit}>
-        Designed and built by Manish Kumar
+        Designed and built by Manish Kumar ❤️
       </div>
     </div>
   )
