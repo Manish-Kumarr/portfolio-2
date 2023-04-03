@@ -118,7 +118,7 @@ module.exports = {
       {
         heading: "Ludo 2 players",
         link: "https://github.com/Manish-Kumarr/Ludo",
-        external: "#",
+        external: "https://manish-kumarr.github.io/Ludo/",
         description: [
           "Designed and developed this game.",
           "Two players ludo game.",
