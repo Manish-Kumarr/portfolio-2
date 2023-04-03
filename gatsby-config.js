@@ -42,7 +42,7 @@ module.exports = {
       {
         heading: "Todo App",
         link: "https://github.com/Manish-Kumarr/Todo-App-React",
-        external: "#",
+        external: "https://todos-appp.netlify.app/",
         description: [
           "Designed and developed this Todo App.",
           "Build with ReactJS.",
@@ -76,7 +76,7 @@ module.exports = {
       {
         heading: "Covid 19",
         link: "https://github.com/Manish-Kumarr/covid-19",
-        external: "https://covidddd19.herokuapp.com/",
+        external: "https://sparkling-boa-bikini.cyclic.app/",
         description: [
           "Designed and developed this covid app.",
           "Used own API",
@@ -87,7 +87,7 @@ module.exports = {
       {
         heading: "Weather App",
         link: "https://github.com/Manish-Kumarr/weather-app",
-        external: " https://temp-weather-application.herokuapp.com/",
+        external: "#",
         description: [
           "Designed and developed this Weather App",
           "Use two API's(own) first api for lang, long and second api is from Mapbox for data",
@@ -108,7 +108,7 @@ module.exports = {
       {
         heading: "Portfolio Website - 1",
         link: "https://github.com/Manish-Kumarr/Portfolio",
-        external: "https://singh-manish.tech/",
+        external: "#",
         description: [
           "Designed and developed this portfolio for providing information & work about me.",
           "Build with HTML, CSS, JS.",
@@ -118,7 +118,7 @@ module.exports = {
       {
         heading: "Ludo 2 players",
         link: "https://github.com/Manish-Kumarr/Ludo",
-        external: "https://singh-manish.tech/ludo/",
+        external: "#",
         description: [
           "Designed and developed this game.",
           "Two players ludo game.",
